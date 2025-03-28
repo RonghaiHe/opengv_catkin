@@ -45,7 +45,7 @@ endif()
 
 ExternalProject_Add(
   opengv_src
-  GIT_REPOSITORY https://github.com/RonghaiHe/opengv.git
+  GIT_REPOSITORY git@github.com:RonghaiHe/opengv.git
   GIT_TAG master
   # GIT_PROGRESS 1
   UPDATE_COMMAND ""
